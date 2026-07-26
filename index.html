@@ -10,6 +10,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
@@ -53,20 +54,20 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 </div>
 <section class="menu" id="menu">
 
-    <h2>Our Menu</h2>
-    <p class="menu-description">Discover our wide range of authentic Asian dishes, carefully crafted to satisfy your taste buds.</p>
-    <div class="menu-items">
-        <div class="menu-item">
+    <h2 data-aos="fade-up">Our Menu</h2>
+    <p class="menu-description" data-aos="fade-up" data-aos-delay="200">Discover our wide range of authentic Asian dishes, carefully crafted to satisfy your taste buds.</p>
+    <div class="menu-items" >
+        <div class="menu-item" data-aos="zoom-in" data-aos-delay="300">
             <img src="images/sushi.jpeg" alt="Sushi">
             <h3>Sushi</h3>
             <p>Freshly prepared sushi rolls with a variety of fillings and toppings.</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-aos="zoom-in" data-aos-delay="300">
             <img src="images/ramen.jpeg" alt="Ramen">
             <h3>Ramen</h3>
             <p>Delicious ramen bowls with rich broth, noodles, and your choice of protein.</p>
         </div>
-        <div class="menu-item">
+        <div class="menu-item" data-aos="zoom-in" data-aos-delay="300">
             <img src="images/tempura.jpeg" alt="Tempura">
             <h3>Tempura</h3>
             <p>Crispy tempura vegetables and seafood served with a savory dipping sauce.</p>
@@ -80,7 +81,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
        </div>
        <div class="about-text">  
         <h2>About Akira Restaurant</h2>
-        <p class="about-description"><span>A culinary journey through the flavors of Asia.</span> <br>
+        <p class="about-description" data-aos="zoom-in" data-aos-delay="100"><span>A culinary journey through the flavors of Asia.</span> <br>
             At Akira Restaurant, we are
              passionate about bringing the flavors of Asia to your table. 
              Our chefs use only the freshest ingredients to create dishes that
@@ -147,14 +148,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   <h2>Gallery</h2>
 
   <div class="gallery-grid">
-    <img src="images/gallery1.jpeg" alt="">
-    <img src="images/gallery2.jpeg" alt="">
-    <img src="images/gallery3.jpeg" alt="">
-    <img src="images/gallery4.jpeg" alt="">
-    <img src="images/gallery5.jpeg" alt="">
-    <img src="images/gallery6.jpeg" alt="">
-    <img src="images/gallery7.jpeg" alt="">
-    <img src="images/gallery8.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery1.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery2.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery3.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery4.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery5.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery6.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery7.jpeg" alt="">
+    <img data-aos="fade-up" data-aos-delay="100" src="images/gallery8.jpeg" alt="">
   </div>
 
   <a href="gallery.html" class="gallery-btn">
@@ -218,6 +219,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </div>
 
 </footer>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 <script src="script.js" ></script>
 </body>
 </html>
